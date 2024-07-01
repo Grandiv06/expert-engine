@@ -1,0 +1,39 @@
+.products {
+  width: 100%;
+  background-color: #2b2b2b;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  .product__center {
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: center;
+    .product__item {
+      width: 90%;
+      padding: 30px;
+      img {
+        width: 50%;
+        display: block;
+        margin: 10px auto;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        color: whitesmoke;
+      }
+      p {
+        text-align: justify;
+        color: whitesmoke;
+        line-height: 25px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+      }
+    }
+  }
+}
